@@ -2,7 +2,7 @@
 section .data
 	msg db	"hello, world",0
 section .bss
-section .txt
+section .text
 	global main
 main:
 	mov	rax, 1		; 1 = write
